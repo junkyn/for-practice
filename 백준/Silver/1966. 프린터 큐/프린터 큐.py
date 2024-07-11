@@ -15,7 +15,6 @@ for i in range(TC):
             ret += 1
             if q[0] == M:
                 print(ret)
-                q.clear()
                 break
             else:
                 q.pop(0)
